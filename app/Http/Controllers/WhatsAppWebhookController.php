@@ -16,7 +16,7 @@ class WhatsAppWebhookController extends Controller
 
     public function get ( Request $request )
     {
-        WhatsApp::webhookVerify( $request );
+        return WhatsApp::webhookVerify( $request );
     }
 
     public function post ( Request $request )
