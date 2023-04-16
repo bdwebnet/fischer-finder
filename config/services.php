@@ -14,6 +14,12 @@ return [
     |
     */
 
+    'whatsapp' => [
+        'from-phone-number-id' => env('WHATSAPP_FROM_PHONE_NUMBER_ID'),
+        'token' => env('WHATSAPP_TOKEN'),
+        'verify-token' => env('WHATSAPP_VERIFY_TOKEN'),
+    ],
+
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
         'secret' => env('MAILGUN_SECRET'),
